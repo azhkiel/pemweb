@@ -1,0 +1,28 @@
+/* Mengatur tampilan ul agar lebih rapi */
+.gallery {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+/* Styling untuk gambar */
+.gallery img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid skyblue;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek hover: Perbesar gambar sedikit dan tambahkan bayangan */
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(0, 191, 255, 0.7);
+}
+
+/* Menghilangkan garis bawah pada link */
+.gallery a {
+    text-decoration: none;
+}
