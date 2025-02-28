@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Saya - ael</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
 
 <header>
-    <h1>Moch Azriel Maulana Racmadhani/ael</h1>
+    <h1>Moch Azriel Maulana Racmadhani</h1>
     <nav>
-        <ul>
-            <li><a href="saya.html">Tentang Saya</a></li>
+        <ul class="saya">
+            <li><a href="Tentang.html">Tentang Saya</a></li>
             <li><a href="kontak.html">Kontak</a></li>
         </ul>
     </nav>
@@ -20,20 +21,55 @@
 
 <!-- Bagian tentang saya -->
 <section id="tentang">
-    <h2>Profil Singkat</h2>
-    <p>Saya adalah seorang Mahasiswa Program Studi Sistem Informasi. Dalam keseharian, saya suka Belajar Iot Terutama Arduino/esp32. Di luar itu, saya aktif Bermain Mobile Legend sampai Lupa waktu:v</p>
-    
     <!-- Gambar profil -->
-    <img src="assets/Patrick.jpg" alt="Foto Nambi">
+    <a class="el" href="saya.html">
+        <img src="assets/Patrick.jpg" alt="Foto el" >
+    </a>
+    <script src="main.js"></script>
+    <!-- Nama dan NPM -->
+    <h1>Moch Azriel Maulana Racmadhani</h1>
+    <h2>23082010094</h2>
+
+    <h3 onclick="promptInput()">Profil Singkat</h3>
+    <div class="float">
+        <img onclick="fungsi()" class="gambar" src="assets/Patrick.jpg">
+        <p>Saya adalah seorang Mahasiswa Program Studi Sistem Informasi. Dalam keseharian, saya suka Belajar Coding terutama Iot menggunakan esp32. Di luar itu, saya aktif Bermain Mobile Legend sampai Lupa waktu dan kadang juga berolahraga lari jika ada waktu.saya juga suka membaca dan membuat hal lucu seperti mengedit gambar.lalu saya juga suka berbicara mendengarkan musik. selain aktivitas normal lain itu. saya juga suka masak. kadang juga belanja kepasar apalagi kalau urusan pernego negoan hehe.</p>
+    </div>
 </section>
 <!-- Bagian samping (aside) untuk aktivitas terbaru -->
 <aside>
     <h3>Aktivitas Terbaru</h3>
-    <ul>
-        <li>Belajar Iot</li>
-        <li>Berpartisipasi dalam perlombaan KKI dan KRI</li>
-        <li>Menjadi Orang yang berguna untuk Bangsa dan Negara</li>
-    </ul>
+    <table class="table1">
+        <tr>
+            <th>No</th>
+            <th>Aktivitas</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Belajar Arduino</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Belajar Pemrograman Web</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Belajar Pemrograman Mobile </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Belajar Pemrograman iot</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Belajar Machine Learning</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Bermain Mobile legend</td>
+        </tr>
+    </table>
 </aside>
 
 <!-- Bagian footer / kontak -->
