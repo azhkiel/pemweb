@@ -1,0 +1,94 @@
+/* Gaya Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #87CEEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Formulir */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Judul Form */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grup Form */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], 
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Radio Button */
+.radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Tombol Submit */
+input[type="submit"] {
+    background: #87CEEB;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background: #4a54e1;
+}
+
+/* Responsif */
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+    }
+}
+
+.btnback {
+    margin-top: 10px;
+    background: #ff4747;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+.btnback:hover {
+    background: #000000;
+}
