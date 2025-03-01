@@ -26,21 +26,10 @@ function validasiNama() {
     alert("Nama valid!");
     return true;
 }
-function validasiNama() {
-    let inputNama = document.getElementById("nama").value;
-    let pola = /^[a-zA-Z' ]+$/; // Hanya huruf, spasi, dan petik satu yang diperbolehkan
-
-    if (!pola.test(inputNama)) {
-        alert("Nama hanya boleh berisi huruf dan tanda petik satu (')");
-        return false;
-    }
-    alert("Nama valid!");
-    return true;
-}
 
 function hitungRandom() {
-    let angka1 = Math.floor(Math.random() * 10) + 1;
-    let angka2 = Math.floor(Math.random() * 10) + 1;
+    let angka1 = Math.floor(Math.random() * 100) + 1;
+    let angka2 = Math.floor(Math.random() * 100) + 1;
     let operator = ['+', '-', '*'][Math.floor(Math.random() * 3)];
     let hasil;
 

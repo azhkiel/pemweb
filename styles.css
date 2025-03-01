@@ -16,11 +16,12 @@ header {
 }
 
 .saya li{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, shadow 0.3s ease;
 }
 .saya li:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px rgba(0, 191, 255, 0.7);
+    /* transform:  scale(1.1); */
+    font-size:20px;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
 }
 /* Styling untuk navigasi */
 nav ul {
@@ -55,6 +56,11 @@ section {
     border-radius: 50%;
     display: block;
     margin: 10px auto;
+    transition: transform 0.3s ease, shadow 0.3s ease;
+}
+.el img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
 }
 .gambar {
     width: 100px;
